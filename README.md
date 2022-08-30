@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<!-- Screenshot -->
+![manufac-analytics](https://user-images.githubusercontent.com/86717018/187545099-73d704a0-0b64-4087-af1b-cd3db9e478e7.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:

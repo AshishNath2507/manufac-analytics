@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import BarChart from './Components/BarChart';
+import ScatterChart from './Components/ScatterChart';
+
+const css = {
+  display: "flex",
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  color: "#000",  
+  padding: "10px",
+  fontFamily: "Arial",
+  margin: '3rem'
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return <>
+    <ScatterChart />
+    <BarChart />
+    <div className="desc" style={css}>
+      <p>Name: Ashish Nath</p>
+      <p>Email: ashishnath905@gmail.com</p>
+      <p>Number: 8011743418</p>
     </div>
-  );
+  </>
 }
 
 export default App;
